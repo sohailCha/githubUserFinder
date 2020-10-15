@@ -3,8 +3,8 @@ class Github{
     constructor(){
 
         // to get client id and secret, you have to register your app on github oAuth apps.
-        this.clientID = "efbe5ef3e635b32e8372";
-        this.clientSecret = "8d5ee538ca2dc34bd6d3b238377ae689bdfc005f";
+        this.clientID = "YOUR_CLIENT_ID";
+        this.clientSecret = "YOUR_CLIENT_SECRET";
         this.noOfRepos = 5;
         this.sortRepos = 'created : asc';
     }
